@@ -240,6 +240,10 @@ ul {
   font-size: 1.5rem;
 }
 
+.language-setting{
+    padding: 20px 0;
+}
+
 .small-nav {
   display: block;
   color: white;
@@ -255,19 +259,19 @@ ul {
   margin: 20px;
 }
 
-#languageselector{
-    background-color:#170416 ;
-    color: white;
-    border: none;
+span #languageselector {
+  background-color: #170416;
+  color: white;
+  border: none;
 }
 
-.Italyflag{
-    width: 30px;
-    height: 20px;
+.Italyflag {
+  width: 30px;
+  height: 20px;
 }
 
-span{
-    margin: 10px;
+span {
+  margin: 10px;
 }
 li {
   padding: 5px 0;
@@ -287,13 +291,13 @@ li {
 }
 
 .registration-size-img {
-    height: 50px;
-    font-size: 1rem;
-    border-radius: 50px;
-    width: 350px;
-    color: white;
-    max-width: 100%;
-  }
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 50px;
+  width: 350px;
+  color: white;
+  max-width: 100%;
+}
 
 .registration-size {
   background-color: #8ea0e1;
