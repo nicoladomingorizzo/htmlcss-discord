@@ -254,6 +254,14 @@ ul {
     color: #7288da;
 }
 
+.big-nav, .small-nav{
+    margin: 20px;
+}
+
+li{
+padding: 5px 0;
+}
+
 .footer-registration {
   background-color: #170416;
   height: 50px;
