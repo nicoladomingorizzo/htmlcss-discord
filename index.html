@@ -9,12 +9,20 @@
   <body>
     <!-- #main-header -->
     <header id="main-header">
-      <div class="container">
+      <div class="container link-header">
         <!-- nav -->
-        <nav>
-          <div class="logo">logo</div>
-          <div class="link">link</div>
-          <div class="login">login</div>
+        <nav class="d-flex">
+          <img src="./img/logo.svg" alt="logo discord">
+          <div class="link-header">
+              <ul class="ul-link d-flex">
+                  <li><a href="*">Scarica</a></li>
+                  <li><a href="*">Perché Discord</a></li>
+                  <li><a href="*">Nitro</a></li>
+                  <li><a href="*">Sicurezza</a></li>
+                  <li><a href="*">Assistenza</a></li>
+                </ul>
+            </div>
+          <button class="login">Accedi</button>
         </nav>
         <!-- /nav -->
       </div>
@@ -22,7 +30,17 @@
     <!-- /#main-header -->
     <!-- .banner -->
     <header class="banner">
-      <div class="banner-container h200">banner</div>
+      <section class="banner-container h200">
+        <div>
+            <h1>Il tuo posto per parlare</h1>
+            <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+            </p>
+        </div>
+        <div class="buttons">
+            <button class="mac-button">&downarrow; Scarica per Mac</button>
+            <button class="browser-button">Apri Discord nel tuo browser</button>
+        </div>
+        </section>
     </header>
     <!-- /.banner -->
     <!-- #main-content -->
@@ -68,7 +86,9 @@
       <footer class="footer-registration">
         <div class="container">
           <div class="registration-box d-flex">
-            <button class="registration-size">logo</button>
+            <button class="registration-size">
+                <!-- <i class="fa-brands fa-discord"></i> -->
+            </button>
             <button class="registration-size">button</button>
           </div>
         </div>

@@ -1,138 +1,187 @@
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Utilities */
-  
-  .container {
-    width: 80%;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  .banner-container {
-    background-color: #ee81ee;
-    width: 60%;
-    max-width: 720px;
-    margin: 25px auto;
-  }
-  
-  .h250{
-  min-height: 250px;
-  }
-  
-  .h200{
-      min-height: 200px;
-  }
-  
-  /* General */
-  #main-header {
-    min-height: 50px;
-    background-color: #add8e6;
-    line-height: 50px;
-    padding: 10px;
-  }
-  /* main */
-  .white-bg {
-    background-color: white;
-  }
-  
-  .gray-bg {
-    background-color: #d3d3d3;
-  }
-  
-  .big-bg {
-    background-color: #d3d3d3;
-    height: 400px;
-  }
-  
-  .small-content {
-    width: 40%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+.banner-container {
+  color: white;
+  font-size: 4rem;
+  width: 60%;
+  max-width: 960px;
+  margin: 25px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner-container p {
+  margin: 50px auto;
+  font-size: 2rem;
+}
+
+.buttons{
     height: 200px;
-    background-color: #fec0ca;
-    margin: 25px auto;
-  }
-  
-  .medium-content {
-    width: 60%;
-    background-color: #1c90ff;
-    margin: 25px auto;
-  }
-  
-  .big-content {
-    width: 100%;
-    height: 350px;
-    background-color: #228b21;
-    margin: 25px auto;
-  }
-  
-  /* header */
-  nav {
-    display: flex;
-    background-color: #daa520;
-    line-height: 25px;
-  }
-  
-  .logo {
-    width: 25%;
-  }
-  
-  .link {
-    width: 50%;
-  }
-  
-  .login {
-    width: 25%;
-  }
-  
-  .banner {
-    min-height: 250px;
-    background-color: #00008b;
-    display: flex;
-  }
-  /* footer */
-  .black-bg {
+    margin-top: 80px;
+}
+
+.mac-button {
+  background-color: white;
+  height: 100px;
+  vertical-align: middle;
+  font-size: 2rem;
+  border-radius: 50px;
+  width: 350px;
+}
+
+.browser-button {
     background-color: #170416;
-    padding-top: 10px;
-  }
-  
-  .nav {
-      min-height: 200px;
-  }
-  .big-nav {
-    background-color: #ef8080;
-    flex-grow: 2;
-  }
-  
-  .small-nav {
-    background-color: #20b1a9;
-    flex-grow: 1;
-  }
-  
-  .footer-registration {
-    background-color: #170416;
-    height: 50px;
-    border-top: 1px solid #b2b3b4;
-    padding-top: 15px;
-    
-  }
-  
-  .registration-box{
-      background-color: #7fffd3;
-      height: 35px;
-      justify-content:space-between;
-      align-items: center;
-  }
-  .registration-size {
-    background-color: #ffb6c1;
-    width: 50px;
-    height: 20px;
-  
-  }
-  
+    vertical-align: middle;
+    color: white;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50px;
+    width: 500px;
+  }.
+
+.h250 {
+  min-height: 250px;
+}
+
+.h200 {
+  min-height: 200px;
+}
+
+/* General */
+#main-header {
+  min-height: 50px;
+  background-color: #3161e0;
+  line-height: 50px;
+  padding: 10px;
+}
+/* main */
+.white-bg {
+  background-color: white;
+}
+
+.gray-bg {
+  background-color: #d3d3d3;
+}
+
+.big-bg {
+  background-color: #d3d3d3;
+  height: 400px;
+}
+
+.small-content {
+  width: 40%;
+  height: 200px;
+  background-color: #fec0ca;
+  margin: 25px auto;
+}
+
+.medium-content {
+  width: 60%;
+  background-color: #1c90ff;
+  margin: 25px auto;
+}
+
+.big-content {
+  width: 100%;
+  height: 350px;
+  background-color: #228b21;
+  margin: 25px auto;
+}
+
+/* header */
+nav {
+  display: flex;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+ul {
+  list-style: none;
+  flex-grow: 3;
+  color: white;
+}
+
+.ul-link {
+  justify-content: space-between;
+}
+.login {
+  flex-grow: 1;
+  border-radius: 25px;
+}
+
+.link-header {
+  text-align: center;
+  flex-grow: 3;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner {
+  min-height: 250px;
+  background-color: #3161e0;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  min-height: 550px;
+  padding: 50px;
+  display: flex;
+}
+/* footer */
+.black-bg {
+  background-color: #170416;
+  padding-top: 10px;
+}
+
+.nav {
+  min-height: 200px;
+}
+.big-nav {
+  background-color: #ef8080;
+  flex-grow: 2;
+}
+
+.small-nav {
+  background-color: #20b1a9;
+  flex-grow: 1;
+}
+
+.footer-registration {
+  background-color: #170416;
+  height: 50px;
+  border-top: 1px solid #b2b3b4;
+  padding-top: 15px;
+}
+
+.registration-box {
+  background-color: #7fffd3;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration-size {
+  background-color: #ffb6c1;
+  width: 50px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
