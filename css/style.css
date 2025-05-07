@@ -232,6 +232,7 @@ ul {
 .big-nav {
   color: white;
   flex-grow: 2;
+  flex-direction: column;
 }
 
 .big-nav h4 {
@@ -254,6 +255,20 @@ ul {
   margin: 20px;
 }
 
+#languageselector{
+    background-color:#170416 ;
+    color: white;
+    border: none;
+}
+
+.Italyflag{
+    width: 30px;
+    height: 20px;
+}
+
+span{
+    margin: 10px;
+}
 li {
   padding: 5px 0;
 }
@@ -288,7 +303,7 @@ li {
   width: 350px;
   color: white;
   width: 150px;
-  height: 50px;
+  height: 40px;
 }
 
 a {
