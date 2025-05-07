@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discord</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -11,10 +12,10 @@
     <header id="main-header">
       <div class="container link-header">
         <!-- nav -->
-        <nav class="d-flex">
+        <nav class="d-flex-nav-header">
           <img src="./img/logo.svg" alt="logo discord">
           <div class="link-header">
-              <ul class="ul-link d-flex">
+              <ul class="ul-link d-flex-nav-header">
                   <li><a href="*">Scarica</a></li>
                   <li><a href="*">Perché Discord</a></li>
                   <li><a href="*">Nitro</a></li>
@@ -76,8 +77,16 @@
       </div>
       <img class="normal-wawe" src="./img/wave.svg" alt="divisor wawe">
       <div class="big-bg">
-        <div class="container">
-          <div class="big-content"></div>
+          <div class="container">
+            <section class="big-content">
+                <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in Streaming, o riunitevi in una sessione di disegno Con la condivisione schermo</p>
+            </section>
+            <img class="big-content-img" src="./img/item4-big.svg" alt="call audio video">
+            <section class="big-content-new-adventure">
+                <h3>Pronto a iniziare la tua nuova avventura?</h3>
+            </section>
+            <button class="mac-button-new-adventure">&downarrow; Scarica per Mac</button>
         </div>
       </div>
     </main>
@@ -87,11 +96,60 @@
       <footer class="footer-nav">
         <div class="black-bg min-h250">
           <div class="container d-flex">
-            <nav class="big-nav min-h200"></nav>
-            <nav class="small-nav min-h200"></nav>
-            <nav class="small-nav min-h200"></nav>
-            <nav class="small-nav min-h200"></nav>
-            <nav class="small-nav min-h200"></nav>
+            <nav class="big-nav min-h200">
+                <h4>Il tuo posto per parlare</h4>
+                <span>
+                    <img class="ita-img" src="./img/ita.png" alt="bandiera italiana">
+                    <p>Italiano&#8964;</p>
+                </span>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </nav>
+            <nav class="small-nav min-h200">
+                <ul>
+                    <li class="purple-li"><a href="#"><strong>Prodotto</strong></a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </nav>
+            <nav class="small-nav min-h200">
+                  <ul>
+                    <li class="purple-li"><a href="#"><strong>Compagnia</strong></a></li>
+                    <li><a href="#">Chi Siamo</a></li>
+                    <li><a href="#"></a>Lavora con noi</li>
+                    <li><a href="#"></a>Marchio</li>
+                    <li><a href="#"></a>Redazione</li>
+                    <li><a href="#"></a>Negozio</li>
+            </nav>
+            <nav class="small-nav min-h200">
+                <ul>
+                    <li class="purple-li"><a href="#"><strong>Risorse</strong></a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+            </nav>
+            <nav class="small-nav min-h200">
+                  <ul>
+                    <li class="purple-li"><a href="#"><strong></strong></a></li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perché Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+            </nav>
           </div>
         </div>
       </footer>
@@ -99,7 +157,6 @@
         <div class="container">
           <div class="registration-box d-flex">
             <button class="registration-size">
-                <!-- <i class="fa-brands fa-discord"></i> -->
             </button>
             <button class="registration-size">button</button>
           </div>
