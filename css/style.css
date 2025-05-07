@@ -18,7 +18,7 @@
 }
 .banner-container {
   color: white;
-  font-size: 4rem;
+
   width: 60%;
   max-width: 960px;
   margin: 25px auto;
@@ -26,14 +26,18 @@
   vertical-align: middle;
 }
 
+.banner-container h1 {
+  font-size: 4rem;
+}
+
 .banner-container p {
   margin: 50px auto;
   font-size: 2rem;
 }
 
-.buttons{
-    height: 200px;
-    margin-top: 80px;
+.buttons {
+  height: 200px;
+  margin-top: 80px;
 }
 
 .mac-button {
@@ -46,24 +50,29 @@
 }
 
 .browser-button {
-    background-color: #170416;
-    vertical-align: middle;
-    color: white;
-    height: 100px;
-    font-size: 2rem;
-    border-radius: 50px;
-    width: 500px;
-  }.
+  background-color: #170416;
+  vertical-align: middle;
+  color: white;
+  height: 100px;
+  font-size: 2rem;
+  border-radius: 50px;
+  width: 500px;
+}
 
-.h250 {
+.min-h250 {
   min-height: 250px;
 }
 
-.h200 {
+.min-h200 {
   min-height: 200px;
 }
 
 /* General */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #main-header {
   min-height: 50px;
   background-color: #3161e0;
@@ -86,14 +95,20 @@
 
 .small-content {
   width: 40%;
-  height: 200px;
-  background-color: #fec0ca;
   margin: 25px auto;
+}
+
+.small-content p {
+  margin: 50px auto;
+  font-size: 2rem;
+}
+
+.small-content h2 {
+  font-size: 4rem;
 }
 
 .medium-content {
   width: 60%;
-  background-color: #1c90ff;
   margin: 25px auto;
 }
 
