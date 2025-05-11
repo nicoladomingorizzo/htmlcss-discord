@@ -259,9 +259,9 @@ ul {
   margin: 20px;
 }
 
-span #languageselector {
+select{
   background-color: #170416;
-  color: white;
+  color: var(--dis-color--lightgray);
   border: none;
 }
 
