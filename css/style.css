@@ -98,6 +98,7 @@ body {
 .big-bg {
   background-color: #d3d3d3;
   min-height: 400px;
+  padding-bottom: 50px;
 }
 
 img {
