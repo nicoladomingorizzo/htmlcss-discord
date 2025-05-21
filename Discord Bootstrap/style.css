@@ -1,0 +1,16 @@
+.background-image{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+.wave-gradient{
+  width:100%;
+  opacity: 11%;
+}
+
+.upside-down-wave-gradient{
+  rotate: 180deg;
+  width:100%;
+  opacity: 11%;
+
+}
